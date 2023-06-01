@@ -1,0 +1,215 @@
+body{
+  padding-top: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  color:#003765 ;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: large;
+ padding-left: 15px;
+ padding-right: 15px; 
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  background-color: #adb5bd;
+  border-radius: 6px;
+  color: rgb(114, 158, 223);
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  background-color:#adb5bd;
+  border-radius: 6px;
+}
+.carousel-caption h2{
+   font-family:'Abril Fatface', serif;
+}
+.carousel-caption h2::before{
+  content: attr(data-text);
+  position:absolute;
+  color:aquamarine;
+
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid #fff;
+  animation: animate 20s linear infinite;
+  filter: drop-shadow(0 0 0 #fff) drop-shadow(0 0 20px #fff);
+}
+@keyframes animate
+{
+0% ,10% ,100%
+{
+  width: 0;
+}
+70% ,90%
+{
+  width: 37%;
+}
+}
+/*zig zag grid*/
+* {
+  box-sizing:border-box;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+.large-font {
+  font-size: 48px;
+}
+.xlarge-font {
+  font-size: 64px
+}
+.button {
+  border: none;
+  color: rgb(4, 4, 4);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color:#86c6f4;
+  border-radius: 6px;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+.features{
+  background-image: url(foto/background2.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+.features img{
+  opacity: 0.9;
+}
+.features .card{
+  border:none;
+}
+.features .card:hover{
+  box-shadow: 5px 10px 18px rgb(152, 153, 154);
+}
+.features i{
+  font-size: 30px;
+}
+.testimonian{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f1f1f1;
+}
+.testimonian h5{
+  font-weight: 20px;
+  margin-bottom: 20px;
+}
+.testimonian .lead{
+  line-height: 2em;
+  margin : 0px 100px 100px 100px;
+}
+.testimonian .carousel-inner{
+  min-height: 220px;
+}
+.testimonian .carousel-indicators [data-bs-target]{
+width: 60px;
+height: 60px;
+margin: 8px;
+
+}
+.testimonian .carousel-indicators [data-bs-target] img{
+  width: 60px;
+  height: 60px;
+  }
+  /*aboutus*/
+.aboutUs {
+  font-family: 'Domine', serif;
+  
+}
+.aboutUs .carousel-caption{
+  background-color: rgb(131, 154, 188,0.6);
+  text-shadow: 3px 2px 5px #000000;
+}
+.info h1{
+  padding-top: 40px;
+  font-family: 'Domine', serif;
+  text-shadow: 3px 2px 5px #71b0dd;
+}
+.info p{
+  font-family: 'Domine', serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.info .card{
+  margin-right: 40px;
+  border: none;
+}
+.info .card img{
+  width: 50%;
+}
+.info .card:hover{
+  box-shadow: 10px 10px 18px #555f5b;
+}
+/* service*/
+.service{
+  padding-top: 60px;
+  background-image: url(foto/a.avif);
+  background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 500px;
+}
+.service .our-service{
+  background-color: rgba(167, 193, 235, 0.6);
+  min-height: 500px;
+}
+.service .our-service h1 {
+  padding-top: 300px;
+  font-family: cursive;
+  font-weight: bold;
+}
+.all-services img{
+  padding-top: 30px;
+  box-shadow: 15px 15px 10px rgb(77, 105, 181);
+}
+.all-services .vip img{
+  padding-top: 30px;
+  box-shadow:none;
+}
+.all-services h3{
+  font-family: 'IBM Plex Mono';
+}
+.glow  {
+  font-size: 30px;
+  font-family: cursive;
+  color: #1e538d;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 2px #fff, 0 0 2px #3f92c2, 0 0 2px #3f92c2, 0 0 2px #3f92c2, 0 0 2px #3f92c2, 0 0 2px #3f92c2, 0 0 2px #3f92c2;
+  }
+  
+  to {
+    text-shadow: 0 0 4px #fff, 0 0 6px #8ab2e0, 0 0 6px #8ab2e0, 0 0 6px #8ab2e0, 0 0 6px #8ab2e0, 0 0 6px #8ab2e0, 0 0 6px #8ab2e0;
+  }
+}
