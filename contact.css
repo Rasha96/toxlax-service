@@ -6,23 +6,25 @@
 }
 .contact   img{
     border-radius: 10px;
-    box-shadow: 50px 50px #555f5b;
+    box-shadow: 30px 30px #555f5b;
+    display: inline;
+   
 
 }
 
-.contact .column-66{
-padding-left: 400px;
-}
+
  h1{
     font-family: 'Domine', serif;
     text-shadow: 2px 2px 5px #555f5b;
+    margin-top: 9%;
+  
 }
 .contact .card:hover{
    box-shadow:  5px 10px 18px rgb(152, 153, 154);
 }
 
 body{
-    background-image: url(foto/background3.jpg) ;
+    background-image: url(foto/map.jpg) ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size:cover;
@@ -36,6 +38,7 @@ body{
     color:#ddd;
     padding-top: 40px;
     padding-bottom: 40px;
+    
 }
 .form-group{
     margin: 15px;
