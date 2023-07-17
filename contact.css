@@ -32,26 +32,3 @@ body{
     -o-webkit-background-size:cover;
     background-size:cover;  
 }
-.contact-us  .fields{
-    background: rgba(9,9,9, 0.8);
-    min-height: 300px;
-    color:#ddd;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    
-}
-.form-group{
-    margin: 15px;
-}
-.contact-us  .btn-primary{
-    width: 200px;
-}
-.contact-us textarea{
-    height: 100px;
-}
-.contact-us input[type="text"],
-.contact-us textarea{
-    background: rgba(149, 141, 141, 0.5);
-    color: #ddd;
-    border: none;
-}
