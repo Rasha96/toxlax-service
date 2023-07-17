@@ -27,8 +27,8 @@ class Translate{
             document.getElementById("9").innerHTML=" Business advice.";
             document.getElementById("10").innerHTML="Consulting all business.";
             document.getElementById("11").innerHTML=" Website design for businesses, online stores and other websites.";
-            document.getElementById("12").innerHTML="Invest your money with the latest modern projects.. ";
-            document.getElementById("13").innerHTML="The best global attempts to sell electricity are on grid devices.";
+            document.getElementById("12").innerHTML="Invest your money with the latest modern projects..The best global attempts to sell electricity are on grid devices. ";
+         
             document.getElementById("14").innerHTML="General legal services";
             document.getElementById("14a").innerHTML="Tourist Residencies";
             document.getElementById("15").innerHTML="Student Residencies";
@@ -71,8 +71,8 @@ class Translate{
             document.getElementById("9").innerHTML="İş tavsiyesi.";
             document.getElementById("10").innerHTML="Tüm iş danışmanlığı.";
             document.getElementById("11").innerHTML="İşletmeler, çevrimiçi mağazalar ve diğer web siteleri için web sitesi tasarımı.";
-            document.getElementById("12").innerHTML="Paranızı en son modern projelerle yatırın.. ";
-            document.getElementById("13").innerHTML="Elektrik satmaya yönelik en iyi küresel girişimler şebeke cihazlarındadır.";
+            document.getElementById("12").innerHTML="Paranızı en son modern projelerle yatırın..Elektrik satmaya yönelik en iyi küresel girişimler şebeke cihazlarındadır. ";
+           
             document.getElementById("14").innerHTML="Genel hukuk hizmetleri";
             document.getElementById("14a").innerHTML="Turistik Rezidanslar";
             document.getElementById("15").innerHTML="Öğrenci Yurtları";
@@ -115,8 +115,8 @@ class Translate{
             document.getElementById("9").innerHTML="نصائح تجارية.";
             document.getElementById("10").innerHTML="استشارة جميع الأعمال.";
             document.getElementById("11").innerHTML="تصميم مواقع الويب للشركات والمتاجر عبر الإنترنت ومواقع الويب الأخرى.";
-            document.getElementById("12").innerHTML="استثمر أموالك بأحدث المشاريع الحديثة .. ";
-            document.getElementById("13").innerHTML="أفضل المحاولات العالمية لبيع الكهرباء هي على أجهزة الشبكة.";
+            document.getElementById("12").innerHTML="استثمر أموالك بأحدث المشاريع الحديثة .. أفضل المحاولات العالمية لبيع الكهرباء هي على أجهزة الشبكة";
+          
             document.getElementById("14").innerHTML="خدمات قانونية عامة";
             document.getElementById("14a").innerHTML="الاقامات السياحية";
             document.getElementById("15").innerHTML="مساكن الطلاب";
