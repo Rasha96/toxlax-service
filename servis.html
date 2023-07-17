@@ -1,109 +1,193 @@
-class Trans{
-    constructor(){
-        
-        document.getElementById("english").addEventListener("click",()=>{
-            this.trans("english");
-        });
-        document.getElementById("turkey").addEventListener("click",()=>{
-            this.trans("turkey");
-        });
-        document.getElementById("arabic").addEventListener("click",()=>{
-            this.trans("arabic");
-        });
-        this.trans(localStorage.getItem("language"));
-    }
-    trans(language){
-        if(language=="english"){
-            document.getElementById("0").innerHTML="home";
-            document.getElementById("1").innerHTML="About Us";
-            document.getElementById("2").innerHTML="Service";
-            document.getElementById("3").innerHTML="contact";
-            document.getElementById("4").innerHTML="Why Us?";
-            document.getElementById("5").innerHTML="What do we do for you?";
-            document.getElementById("6").innerHTML="We are Toxlax Company We provide you with all the necessary requirements in order to maintain contact with customers and develop your business in a way that suits the continuously evolving practical environmen";
-            document.getElementById("6a").innerHTML="Our goal:";
-            document.getElementById("6b").innerHTML="To build strong and sustainable relationships with our customers by providing a unique and satisfying experience. We aim to achieve customer satisfaction by actively listening to their needs and addressing them individually and effectively.We strive to attain complete satisfaction by meeting their requirements and providing efficient solutions to their problems through the collaboration and coordination of a professional team. This ensures the delivery of exceptional service and meets the expectations of our customers.";
-            document.getElementById("7").innerHTML="Hurry up";
-            document.getElementById("8").innerHTML="to get a job";
-            document.getElementById("9").innerHTML="We help you get a job opportunity in several fields in which you can prove your successes";
-            document.getElementById("9a").innerHTML="Look Over";
-            document.getElementById("10").innerHTML="High Quality Work";
-            document.getElementById("11").innerHTML="All our work is executed with the highest degree of efficiency.";
-            document.getElementById("12").innerHTML="Professional Support";
-            document.getElementById("13").innerHTML="Our team works diligently to ensure that all your questions are answered and your needs met.";
-            document.getElementById("14").innerHTML="Qualified Team";
-            document.getElementById("15").innerHTML="Our team is equipped with a diverse set of skills.";
-            document.getElementById("16").innerHTML="What Our Clinets Say?";
-            document.getElementById("17").innerHTML="I honestly could not be more pleased with this product. So creative and helpful.";
-            document.getElementById("18").innerHTML="Toxlax has been wonderful. They have the best customer service and always go above and beyond to answer my questions and make sure my needs are met.";
-            document.getElementById("19").innerHTML="I’ve never been more impressed with any other product before. I’ve tried so many of the other ones, and this is truly the one that stands out the most.";
-          
-         
-       
-       
-        }
-        else if(language=="turkey"){
-            document.getElementById("0").innerHTML="Anasayfa";
-            document.getElementById("1").innerHTML='Hakımızda';
-            document.getElementById("2").innerHTML="hizmetlerimiz";
-            document.getElementById("3").innerHTML="iletişim";
-            document.getElementById("4").innerHTML="Neden biz";
-            document.getElementById("5").innerHTML="Sizin için ne yapıyoruz?";
-            document.getElementById("6").innerHTML="Biz Toxlax Şirketiyiz Müşterilerle iletişiminizi sürdürmek ve işinizi sürekli gelişen pratik ortama uygun bir şekilde geliştirmek için gerekli tüm gereksinimleri sağlıyoruz.";
-            document.getElementById("6a").innerHTML="Amacımız:";
-            document.getElementById("6b").innerHTML="Müşterilerle güçlü ve sürdürülebilir ilişkiler kurarak benzersiz ve memnuniyet verici bir deneyim sunmak. Müşterilerin ihtiyaçlarını etkin bir şekilde dinleyerek ve bireysel ve etkili bir yaklaşımla ele alarak müşteri memnuniyetine ulaşmayı hedefliyoruz.Profesyonel bir ekip tarafından işbirliği ve koordinasyonla müşterilerin ihtiyaçlarını karşılayarak ve sorunlarına etkili çözümler sunarak tam memnuniyeti elde etmeyi amaçlıyoruz. Bu, istisnai hizmet sunmayı ve müşteri beklentilerini karşılamayı sağlar.";
-            document.getElementById("7").innerHTML="Acele et!";
-            document.getElementById("8").innerHTML="iş almak için";
-            document.getElementById("9").innerHTML="Başarılarınızı kanıtlayabileceğiniz birçok alanda iş fırsatı bulmanıza yardımcı oluyoruz";
-            document.getElementById("9a").innerHTML="Göz At";
-            document.getElementById("10").innerHTML="Yüksek Kaliteli Çalışma";
-            document.getElementById("11").innerHTML="Tüm çalışmalarımız en yüksek verimlilik derecesi ile yürütülür";
-            document.getElementById("12").innerHTML="Profesyonel Destek";
-            document.getElementById("13").innerHTML="Ekibimiz, tüm sorularınızın yanıtlanmasını ve ihtiyaçlarınızın karşılanmasını sağlamak için özenle çalışır.";
-            document.getElementById("14").innerHTML="Nitelikli Ekip";
-            document.getElementById("15").innerHTML="Ekibimiz çeşitli becerilerle donatılmıştır.";
-            document.getElementById("16").innerHTML="Müşterilerimiz Ne Diyor?";
-            document.getElementById("17").innerHTML="Açıkçası bu şirketten daha fazla memnun kalamazdım. Çok yaratıcı ve yardımsever.";
-            document.getElementById("18").innerHTML="“Toxlax harikaydı. En iyi müşteri hizmetine sahipler ve sorularımı yanıtlamak ve ihtiyaçlarımın karşılandığından emin olmak için her zaman yukarıda ve öteye gidiyorlar.";
-            document.getElementById("19").innerHTML="Daha önce başka hiçbir şirketten bu kadar etkilenmemiştim. Diğerlerinin çoğunu denedim ve bu gerçekten en çok öne çıkanı.";
-            
-       
-           
-            
-        }
-        else if (language=="arabic"){
-            document.getElementById("0").innerHTML="الرئيسية";
-            document.getElementById("1").innerHTML="من نحن";
-            document.getElementById("2").innerHTML="خدمات";
-            document.getElementById("3").innerHTML="للتواصل";
-            document.getElementById("4").innerHTML="لماذا توكس لاكس";
-            document.getElementById("5").innerHTML="ماذا نفعل من أجلك؟";
-            document.getElementById("6").innerHTML="نحن شركة توكسلاكس نحن نوفر لك جميع المتطلبات اللازمة من أجل الحفاظ على الاتصال مع العملاء وتطوير أعمالك بطريقة تناسب البيئة العملية المتطورة باستمرار";
-            document.getElementById("6a").innerHTML=":نهدُف";
-            document.getElementById("6b").innerHTML=".لبناء علاقات قوية ومستدامة مع العملاء من خلال تقديم تجربة فريدة ومرضية.  ونيل رضا العملاء عن طريق الاستماع الفعال لاحتياجاتهم والتعامل معها بشكل فردي وفعال. وتحقيقِ الرضا الكامل من خلال تلبية احتياجاتهم وتوفير حلول فعالة لمشاكلهم من قبلِ فريق محترِف بتعاون وتنسيق لضمان تقديم خدمة استثنائية وتلبية توقعات العملاء";
-            document.getElementById("7").innerHTML="أسرع";
-            document.getElementById("8").innerHTML="للحصول على وظيفة";
-            document.getElementById("9").innerHTML="نساعدك في الحصول على فرصة عمل في عدة مجالات يمكنك أن تثبت فيها نجاحاتك";
-            document.getElementById("9a").innerHTML="ألقي نظرة";
-            document.getElementById("10").innerHTML="عمل عالي الجودة";
-            document.getElementById("11").innerHTML="يتم تنفيذ جميع أعمالنا بأعلى درجات الكفاءة.";
-            document.getElementById("12").innerHTML="دعم احترافي";
-            document.getElementById("13").innerHTML="يعمل فريقنا بجد لضمان الإجابة على جميع أسئلتك وتلبية احتياجاتك.";
-            document.getElementById("14").innerHTML="فريق مؤهل";
-            document.getElementById("15").innerHTML="فريقنا مجهز بمجموعة متنوعة من المهارات.";
-            document.getElementById("16").innerHTML="ماذا يقول عملاؤنا؟";
-            document.getElementById("17").innerHTML=". بصراحة لا يمكن أن أكون أكثر سعادة بهذه الشركة مبدعين جدا ومفيدين";
-            document.getElementById("18").innerHTML=". لقد كانت شركة توكسلاكس رائعة. لديهم أفضل خدمة عملاء ودائما يذهبون إلى أبعد من ذلك للإجابة على أسئلتي والتأكد من تلبية احتياجاتي";
-            document.getElementById("19").innerHTML=". لم يسبق لي أن أعجبت بأي شركة آخرى من قبل. لقد جربت الكثير من الشركات الأخرى ، وهذه حقًا هي الأكثر تميزًا";
-            
-           
-        }
-        localStorage.setItem("language",language);
-
-    }
-}
-onload=new Trans();
-
-
-
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF -8">
+        <meta name="description" content="Toxlax descriotion">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Toxlax Customers Service</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel ="icon" type="image/png" href="foto/faveicon.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="hover.css"  media="all"> 
+        <!--burda toxlax hakkında bilgi yazıl-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/5888145f3e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+            <a class="navbar-brand hvr-pop" href="index.html">
+                <img src="foto/logo.png" alt="Bootstrap" width="200" height="100">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a id="0" class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a id="1" class="nav-link" href="aboutUs.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a id="2" class="nav-link" href="servis.html">Service</a>
+              </li>
+              <li class="nav-item">
+                <a id="3" class="nav-link" href="contact.html">contact</a>
+              </li>
+            </ul>
+            <div class="alllanguage" >
+              <a  href="#">
+                <img id="english" class="hvr-float-shadow" src="foto/united-kingdom.png">
+              </a>
+              <a   href="#">
+                <img id="turkey" class="hvr-float-shadow" src="foto/turkey.png">
+              </a>
+              <a   href="#">
+                <img id="arabic"class="hvr-float-shadow" src="foto/saudi-arabia.png">
+              </a>
+             
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="service">
+        <div class="our-service">
+            <div class="container">
+                <h1 id="4"><span >TOXLAX</span> costumer servise</h1>
+                <p id="5" style="color:rgb(3, 20, 49)">We are here for you</p>
+            </div>
+        </div>
+      </section>
+      <!--servis 1-->
+      <section class="all-services">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-lg-6 col-sm-12">
+            <h4 id="6" class="glow">commercial services</h4>
+                
+                  <p id="6a" class="hvr-skew-forward"><i class="fa-solid fa-angles-right"></i>
+                    Logo design</p>
+                   <p id="7" class="hvr-skew-forward"><i class="fa-solid fa-angles-right"></i> Programming development.</li></p>
+                   <p id="8" class="hvr-skew-forward"><i class="fa-solid fa-angles-right"></i> Advertising industry.</li></p>
+                   <p id="9" class="hvr-skew-forward"><i class="fa-solid fa-angles-right"></i> Business advice.</li></p>
+                   <p id="10" class="hvr-skew-forward"><i class="fa-solid fa-angles-right"></i> Consulting all business.</li></p>
+                   <p id="11" class="hvr-skew-forward"><i class="fa-solid fa-angles-right"></i> Website design for businesses, online stores and other websites.</li></p>
+                   <p id="12" class="hvr-skew-forward"><i class="fa-solid fa-angles-right"></i> Invest your money with the latest modern projects The best global attempts to sell electricity are on grid devices.
+                  </li></p>
+          </div>
+          <div class="col-lg-4">
+              <img src="foto/service1.webp" width="335" height="471">
+          </div>
+        </div>
+      </div>
+      <!--servis 1-->
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-lg-6">
+            <img src="foto/service2.jpg"width="335" height="471">
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="text" >
+            <h4 id="14" class="glow">General legal services </h4>
+            <p id="14a" class="hvr-forward"><i class="fa-solid fa-angles-right"></i>
+              Tourist Residencies </p>
+             <p id="15" class="hvr-forward" ><i class="fa-solid fa-angles-right"></i> Student Residencies</li></p>
+             <p id="16" class="hvr-forward"><i class="fa-solid fa-angles-right"></i> Work Residencies </li></p>
+             <p id="17" class="hvr-forward"><i class="fa-solid fa-angles-right"></i> Health Insurance</li></p>
+             <p id="18" class="hvr-forward"><i class="fa-solid fa-angles-right"></i> Flight Reservations</li></p>
+             <p id="19" class="hvr-forward"><i class="fa-solid fa-angles-right"></i> Hotel Reservations</li></p>
+             <p id="20" class="hvr-forward"><i class="fa-solid fa-angles-right"></i> Daily/Monthly Furnished Apartments. </li></p>
+             <p id="21" class="hvr-forward"><i class="fa-solid fa-angles-right"></i>Curative Tourism in collaboration with accredited Turkish healthcare facilities</li></p>
+          </div>
+        </div>
+      </div>
+      <!--service 3-->
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-lg-6 col-sm-12">
+            <h4 id="22" class="glow">Students’ Services</h4>
+                
+                  <p id="23" class="hvr-skew-forward "><i class="fa-solid fa-angles-right"></i>
+                    Students registration in public universities in all disciplines by signing legal agreement.</p>
+                   <p id="24" class="hvr-skew-forward " ><i class="fa-solid fa-angles-right"></i> Private universities students’ registration.
+                   </li></p>
+                   <p id="25" class="hvr-skew-forward "><i class="fa-solid fa-angles-right"></i> Schools students’ registration.</li></p>
+                   <p id="26" class="hvr-skew-forward "><i class="fa-solid fa-angles-right"></i> Providing registration services in the Turkish language institute (TOMER).</li></p>
+                   <p id="27" class="hvr-skew-forward "><i class="fa-solid fa-angles-right"></i> Airport pick-up services.</li></p>
+                   <p id="28" class="hvr-skew-forward "><i class="fa-solid fa-angles-right"></i>Providing dormitory or furnished apartment renting services for the students, that matching the students requirements and needs.</li></p>
+                   <p id="29" class="hvr-skew-forward "><i class="fa-solid fa-angles-right"></i> Providing the needed legal residency and health insurance.</li></p>
+                   <p id="30" class="hvr-skew-forward "><i class="fa-solid fa-angles-right"></i>Optaining special universities discounts.</li></p>
+          </div>
+          <div class="col-lg-4">
+              <img src="foto/b.avif" width="335" height="471">
+          </div>
+        </div>
+      </div>
+      <!-- servise4-->
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-lg-6">
+          <div class="vip">
+          <img src="foto/vip.png"width="335" height="471">
+        </div>
+        </div>
+      <div class="col-lg-4 col-sm-12">
+         <div class="text">
+          <h4 id="31" class="glow">In Addition To VIP Services . </h4>
+            <p id="32" class="hvr-forward"><i class="fa-solid fa-angles-right"></i>
+              Tourist Residencies </p>
+           <p id="33" class="hvr-forward"><i class="fa-solid fa-angles-right"></i> Turkish citizenship</li></p>
+           <p id="34" class="hvr-forward"><i class="fa-solid fa-angles-right"></i> <span class="lead"style="color:rgb(42, 127, 201)">Employment contracts in Europe</span>Toxlax works to provide employment contracts in Poland, where employment contracts are for the purpose of issuing and facilitating visa procedures. Toxlax guarantees 90% of obtaining the visa, provided that the legal requirements for the visa are met </li></p>
+           <p id="35" class="hvr-forward"><i class="fa-solid fa-angles-right"></i><span class="lead" style="color:rgb(42, 127, 201)">Visa services</span> Europe (Schengen) visa for all nationalities and Canada and USA visa</li></p>
+        </div>
+      </div>
+     </div>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-4">
+          <img src="foto/logo.png" alt="toxlax">
+        </div>
+        <div class="col-lg-4">
+          <ul class="list-unstyled media">
+            <li class="hvr-float-shadow"><a href="https://www.facebook.com/people/Toxlax/100093076772219/?mibextid=LQQJ4d">
+              <img src="foto/facebook.png "alt="facebook">
+              </a>
+            </li>
+            <li class="hvr-float-shadow">
+              <a href="https://instagram.com/tox.lax?igshid=MzNlNGNkZWQ4Mg==">
+              <img src="foto/instagram.png"alt="instagram"></a>
+            </li>
+            <li class="hvr-float-shadow">
+              <a href="https://www.snapchat.com/add/toxlax?share_id=83/l2ABHQMCGWaG9SE175w&locale=en_CN">
+              <img src="foto/snapchat.png"alt="snapchat"></a>
+            </li>
+            <li class="hvr-float-shadow">
+              <a href="https://api.whatsapp.com/send/?phone=905317377715&text&type=phone_number&app_absent=0">
+                <img src="foto/whatsapp.png"alt="whatsapp"></a>
+            </li>  
+            <li class="hvr-float-shadow">
+              <a href="contact.html">
+              <img src="foto/gmail.png"alt="email"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d391772.6279229343!2d32.878968!3d39.902819!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDU2JzAwLjEiTiAzMsKwNTEnMzUuMSJF!5e0!3m2!1sar!2sus!4v1686643886106!5m2!1sar!2sus" width="300" height="200" style="border:0;border-radius: 10px;margin-top: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="copyright text-center">
+      &2023 <span>TOXLAX company </span>by:rasha
+    </div>
+  </section>
+</body>
+<script src="servis.js"></script>
+</html>
