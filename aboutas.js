@@ -19,7 +19,7 @@ class Translate{
             document.getElementById("2").innerHTML="Service";
             document.getElementById("3").innerHTML="contact";
             document.getElementById("4").innerHTML="Who We Are?";
-            document.getElementById("5").innerHTML="TOXLAX makes innovation and development an essential part of the company's culture, constantly improving its operations and embracing new technologies to enhance the customer experience.";
+            document.getElementById("5").innerHTML="TOXLAX A group of professionals and specialists, who are entrepreneurs with a clear vision, aiming to provide high-quality services to their clients. The company is licensed and accredited by the Turkish government in Ankara.";
             document.getElementById("6").innerHTML="Centre of Excellence";
             document.getElementById("7").innerHTML="Building strong and sustainable relationships with customers by providing a unique and satisfying experience. And to achieve full customer satisfaction by meeting their needs and providing effective solutions to their problems by a professional team with cooperation and coordination to ensure exceptional service and meet customer expectations.TOXLAX considers innovation and development an essential part of the company's culture, constantly improving its operations and embracing new technologies to enhance the customer experience.It seeks to provide multiple and flexible communication channels that suit their needs at any time and from anywhere. Then, with work and effort, we became one of the reliable partners for many leading companies and organizations in Turkey and the Arab world.";
             document.getElementById("8").innerHTML="Our Values";
@@ -42,7 +42,7 @@ class Translate{
             document.getElementById("2").innerHTML="hizmetlerimiz";
             document.getElementById("3").innerHTML="iletişim";
             document.getElementById("4").innerHTML="Biz Kimiz?";
-            document.getElementById("5").innerHTML="TOXLAX, müşteri deneyimini geliştirmek için operasyonlarını sürekli iyileştirerek ve yeni teknolojileri benimseyerek yenilik ve gelişmeyi şirket kültürünün önemli bir parçası haline getiriyor.";
+            document.getElementById("5").innerHTML="TOXLAX, Bir grup girişimci, net bir vizyona sahip profesyonel ve uzmanlardan oluşuyor. Müşterilerine yüksek kaliteli hizmetler sunmayı hedefliyorlar. Şirket, Ankara'da Türk hükümeti tarafından lisanslı ve onaylanmış durumda.";
             document.getElementById("6").innerHTML="Mükemmeliyet Merkezi";
             document.getElementById("7").innerHTML="Eşsiz ve tatmin edici bir deneyim sunarak müşterilerle güçlü ve sürdürülebilir ilişkiler kurmak. Üstün hizmet sağlamak ve müşteri beklentilerini karşılamak için işbirliği ve koordinasyon ile profesyonel bir ekip tarafından ihtiyaçlarını karşılayarak ve sorunlarına etkin çözümler sunarak tam müşteri memnuniyetine ulaşmak. operasyonlarını ve müşteri deneyimini geliştirmek için yeni teknolojileri benimsiyor. Her zaman ve her yerden ihtiyaçlarına uygun çoklu ve esnek iletişim kanalları sağlamayı hedefliyor. Daha sonra çalışma ve çaba ile Türkiye ve Arap dünyasının önde gelen birçok şirket ve kuruluşunun güvenilir ortaklarından biri olduk.";
             document.getElementById("8").innerHTML="Değerlerimiz";
@@ -65,7 +65,7 @@ class Translate{
             document.getElementById("2").innerHTML="خدمات";
             document.getElementById("3").innerHTML="للتواصل";
             document.getElementById("4").innerHTML="من نحن؟";
-            document.getElementById("5").innerHTML="تجعل توكسلاكس الابتكار والتطوير جزءًا مهمًا من ثقافة الشركة من خلال تحسين عملياتها باستمرار واعتماد تقنيات جديدة لتحسين تجربة العملاء.";
+            document.getElementById("5").innerHTML=".مجموعة من المحترفين والمتخصصين من رواد الأعمال برؤية واضحة لقديم خدمات عالية الجودة لعملائها.  وهي شركة مرخصة ومعتمدة من قِبل الحكومة التركية في أنقرة.";
             document.getElementById("6").innerHTML="مركز التميز";
             document.getElementById("7").innerHTML="بناء علاقات قوية ومستدامة مع العملاء من خلال تقديم تجربة فريدة ومرضية. لتحقيق الرضا الكامل للعملاء من خلال تلبية احتياجاتهم وتقديم حلول فعالة لمشاكلهم من قبل فريق محترف بالتعاون والتنسيق من أجل تقديم خدمة متفوقة وتلبية توقعات العملاء. تعتمد تقنيات جديدة لتحسين عملياتها وتجربة العملاء. تهدف إلى توفير قنوات اتصال متعددة ومرنة لتناسب احتياجاتهم في أي وقت وفي أي مكان. في وقت لاحق ، أصبحنا أحد الشركاء الموثوق بهم للعديد من الشركات والمؤسسات الرائدة في تركيا والعالم العربي ، مع العمل والجهد.";
             document.getElementById("8").innerHTML="قيمنا";
@@ -81,6 +81,10 @@ class Translate{
            
         }
         localStorage.setItem("language",language);
+
+    }
+}
+onload=new Translate();
 
     }
 }
