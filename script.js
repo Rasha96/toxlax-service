@@ -21,9 +21,12 @@ class Trans{
             document.getElementById("4").innerHTML="Why Us?";
             document.getElementById("5").innerHTML="What do we do for you?";
             document.getElementById("6").innerHTML="We are Toxlax Company We provide you with all the necessary requirements in order to maintain contact with customers and develop your business in a way that suits the continuously evolving practical environmen";
+            document.getElementById("6a").innerHTML="Our goal:";
+            document.getElementById("6b").innerHTML="To build strong and sustainable relationships with our customers by providing a unique and satisfying experience. We aim to achieve customer satisfaction by actively listening to their needs and addressing them individually and effectively.We strive to attain complete satisfaction by meeting their requirements and providing efficient solutions to their problems through the collaboration and coordination of a professional team. This ensures the delivery of exceptional service and meets the expectations of our customers.";
             document.getElementById("7").innerHTML="Hurry up";
             document.getElementById("8").innerHTML="to get a job";
             document.getElementById("9").innerHTML="We help you get a job opportunity in several fields in which you can prove your successes";
+            document.getElementById("9a").innerHTML="Look Over";
             document.getElementById("10").innerHTML="High Quality Work";
             document.getElementById("11").innerHTML="All our work is executed with the highest degree of efficiency.";
             document.getElementById("12").innerHTML="Professional Support";
@@ -44,12 +47,15 @@ class Trans{
             document.getElementById("1").innerHTML='Hakımızda';
             document.getElementById("2").innerHTML="hizmetlerimiz";
             document.getElementById("3").innerHTML="iletişim";
-            document.getElementById("4").innerHTML="neden biz";
+            document.getElementById("4").innerHTML="Neden biz";
             document.getElementById("5").innerHTML="Sizin için ne yapıyoruz?";
             document.getElementById("6").innerHTML="Biz Toxlax Şirketiyiz Müşterilerle iletişiminizi sürdürmek ve işinizi sürekli gelişen pratik ortama uygun bir şekilde geliştirmek için gerekli tüm gereksinimleri sağlıyoruz.";
+            document.getElementById("6a").innerHTML="Amacımız:";
+            document.getElementById("6b").innerHTML="Müşterilerle güçlü ve sürdürülebilir ilişkiler kurarak benzersiz ve memnuniyet verici bir deneyim sunmak. Müşterilerin ihtiyaçlarını etkin bir şekilde dinleyerek ve bireysel ve etkili bir yaklaşımla ele alarak müşteri memnuniyetine ulaşmayı hedefliyoruz.Profesyonel bir ekip tarafından işbirliği ve koordinasyonla müşterilerin ihtiyaçlarını karşılayarak ve sorunlarına etkili çözümler sunarak tam memnuniyeti elde etmeyi amaçlıyoruz. Bu, istisnai hizmet sunmayı ve müşteri beklentilerini karşılamayı sağlar.";
             document.getElementById("7").innerHTML="Acele et!";
             document.getElementById("8").innerHTML="iş almak için";
             document.getElementById("9").innerHTML="Başarılarınızı kanıtlayabileceğiniz birçok alanda iş fırsatı bulmanıza yardımcı oluyoruz";
+            document.getElementById("9a").innerHTML="Göz At";
             document.getElementById("10").innerHTML="Yüksek Kaliteli Çalışma";
             document.getElementById("11").innerHTML="Tüm çalışmalarımız en yüksek verimlilik derecesi ile yürütülür";
             document.getElementById("12").innerHTML="Profesyonel Destek";
@@ -73,9 +79,12 @@ class Trans{
             document.getElementById("4").innerHTML="لماذا توكس لاكس";
             document.getElementById("5").innerHTML="ماذا نفعل من أجلك؟";
             document.getElementById("6").innerHTML="نحن شركة توكسلاكس نحن نوفر لك جميع المتطلبات اللازمة من أجل الحفاظ على الاتصال مع العملاء وتطوير أعمالك بطريقة تناسب البيئة العملية المتطورة باستمرار";
+            document.getElementById("6a").innerHTML=":نهدُف";
+            document.getElementById("6b").innerHTML=".لبناء علاقات قوية ومستدامة مع العملاء من خلال تقديم تجربة فريدة ومرضية.  ونيل رضا العملاء عن طريق الاستماع الفعال لاحتياجاتهم والتعامل معها بشكل فردي وفعال. وتحقيقِ الرضا الكامل من خلال تلبية احتياجاتهم وتوفير حلول فعالة لمشاكلهم من قبلِ فريق محترِف بتعاون وتنسيق لضمان تقديم خدمة استثنائية وتلبية توقعات العملاء";
             document.getElementById("7").innerHTML="أسرع";
             document.getElementById("8").innerHTML="للحصول على وظيفة";
             document.getElementById("9").innerHTML="نساعدك في الحصول على فرصة عمل في عدة مجالات يمكنك أن تثبت فيها نجاحاتك";
+            document.getElementById("9a").innerHTML="ألقي نظرة";
             document.getElementById("10").innerHTML="عمل عالي الجودة";
             document.getElementById("11").innerHTML="يتم تنفيذ جميع أعمالنا بأعلى درجات الكفاءة.";
             document.getElementById("12").innerHTML="دعم احترافي";
@@ -83,9 +92,9 @@ class Trans{
             document.getElementById("14").innerHTML="فريق مؤهل";
             document.getElementById("15").innerHTML="فريقنا مجهز بمجموعة متنوعة من المهارات.";
             document.getElementById("16").innerHTML="ماذا يقول عملاؤنا؟";
-            document.getElementById("17").innerHTML="بصراحة لا يمكن أن أكون أكثر سعادة بهذا المنتج. مبدع جدا ومفيد.";
-            document.getElementById("18").innerHTML="لقد كان توكسلاكس رائعًا. لديهم أفضل خدمة عملاء ودائما يذهبون إلى أبعد من ذلك للإجابة على أسئلتي والتأكد من تلبية احتياجاتي.";
-            document.getElementById("19").innerHTML="لم يسبق لي أن أعجبت بأي منتج آخر من قبل. لقد جربت الكثير من الأشياء الأخرى ، وهذا حقًا هو الأكثر تميزًا.";
+            document.getElementById("17").innerHTML=". بصراحة لا يمكن أن أكون أكثر سعادة بهذه الشركة مبدعين جدا ومفيدين";
+            document.getElementById("18").innerHTML=". لقد كانت شركة توكسلاكس رائعة. لديهم أفضل خدمة عملاء ودائما يذهبون إلى أبعد من ذلك للإجابة على أسئلتي والتأكد من تلبية احتياجاتي";
+            document.getElementById("19").innerHTML=". لم يسبق لي أن أعجبت بأي شركة آخرى من قبل. لقد جربت الكثير من الشركات الأخرى ، وهذه حقًا هي الأكثر تميزًا";
             
            
         }
@@ -94,5 +103,7 @@ class Trans{
     }
 }
 onload=new Trans();
+
+
 
 
