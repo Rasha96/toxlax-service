@@ -1,7 +1,9 @@
 body{
   padding-top: 70px;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
+
 .navbar-expand-lg .navbar-nav .nav-link{
   color:#003765 ;
   font-family: 'IBM Plex Mono', monospace;
@@ -26,8 +28,9 @@ body{
 }
 /*carousel*/
 .carousel img {
- object-fit: contain;
+ object-fit: cover;
  background-size: cover;
+ object-position: center;
  width: 100%;
 }
 
@@ -56,15 +59,13 @@ body{
 .xlarge-font {
   font-size: 64px
 }
-.button {
-  border: none;
-  color: rgb(4, 4, 4);
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color:#86c6f4;
-  border-radius: 6px;
+.btn {
+ background-color: #3f92c2;
+ --bs-btn-border-color:none;
 }
+ .btn:hover{
+  background-color: red;
+ }
 img {
   display: block;
   height: auto;
@@ -248,4 +249,34 @@ margin: 8px;
 .footer .copyright span{
   color:#004ea7;
   font-family: 'Times New Roman', Times, serif;
+}
+
+.job{
+  padding-top: 60px;
+  background-image: url(foto/ah2.jpeg);
+  background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 500px;
+}
+.job .our-job h1 {
+  padding-top: 300px;
+  font-family: cursive;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.all-jobs p{
+ 
+  font-size: larger;
+}
+.all-jobs img{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 15px 15px 10px rgb(77, 105, 181);
+}
+.all-jobs h3{
+  padding-top: 60px;
+  color:#71b0dd;
+  font-family: cursive;
 }
